@@ -1,9 +1,9 @@
 html{
-  background: url(../images/classbg.jpg) no-repeat center fixed;
+  background: url(../images/bgclass.jpg) no-repeat center fixed;
   background-size: cover;opacity: 0.5;
 }
 body{
-  margin: 3%;font-size: 15px;font-family: cursive;color: #000000;
+  margin: 3%;font-size: 15px;font-family: cursive;color: #060606;
 
 }
 h1,h2,h3,h4,h5,h6,p{
@@ -19,6 +19,24 @@ section{
   display: flex;flex-direction: row;justify-content: space-around;
   list-style-type: none; margin: 0; padding: 0; overflow: hidden;
   align-self: center;
+}
+.personal{
+  text-align: center;
+}
+.education{
+  text-align: center;
+}
+.currentedu{
+  text-align: center;
+}
+.currentjob{
+  text-align: center;
+}
+.skills{
+  text-align: center;
+}
+.skills ul li{
+  list-style-type: none;
 }
 footer{
   display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
