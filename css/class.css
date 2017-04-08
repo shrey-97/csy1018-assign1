@@ -1,10 +1,7 @@
-html{
-  background: url(../images/bgclass.jpg) no-repeat center fixed;
-  background-size: cover;opacity: 0.5;
-}
 body{
-  margin: 3%;font-size: 15px;font-family: cursive;color: #060606;
-
+  margin: 3%;font-size: 15px;font-family: cursive;
+  background: url(../images/classbackground.jpg) no-repeat center fixed;
+  background-size: cover; opacity: 0.8;
 }
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
@@ -71,4 +68,13 @@ footer{
 }
 .div{
   border-radius: 5px;background-color: #f2f2f2;padding: 20px;
+}
+.firstpara article p{
+  text-align: justify;
+}
+.secondpara article p{
+  text-align: justify;
+}
+.thirdpara article p{
+  text-align: justify;
 }
