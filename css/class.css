@@ -1,3 +1,6 @@
+/*student name: Shreya Budhathoki
+student UN ID: 16442480 */
+/*styling the body section*/
 body{
   margin: 3%;font-size: 1em;font-family: cursive;
   background: url(../images/classbackground.jpg) no-repeat center fixed;
@@ -6,38 +9,48 @@ body{
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
+/*styling the header section*/
 header{
   font-size: 3em;color: #9a0d0d;text-align: center;
 }
 section{
 
 }
+/*styling  the picture division*/
 .pictures{
   display: flex;flex-direction: row;justify-content: space-around;
   list-style-type: none; margin: 0; padding: 0; overflow: hidden;
   align-self: center;
 }
+/*styling the personal division*/
 .personal{
   text-align: center;
 }
+/*styling the education division*/
 .education{
   text-align: center;
 }
+/*styling the currentedu section*/
 .currentedu{
   text-align: center;
 }
+/*stylong the currentjob section*/
 .currentjob{
   text-align: center;
 }
+/*styling the skills section*/
 .skills{
   text-align: center;
 }
 .skills ul li{
   list-style-type: none;
 }
+/*end of styling the skill section*/
+/*styling the footer section*/
 footer{
   display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
 }
+/*styling the navigation sction*/
 .navigation{
   width: 100%; padding-bottom: 3%; text-align: center;
 }
@@ -69,6 +82,7 @@ footer{
 .div{
   border-radius: 5px;background-color: #f2f2f2;padding: 20px;
 }
+/*styling the paragraph articles*/
 .firstpara article p{
   text-align: justify;
 }
@@ -78,3 +92,4 @@ footer{
 .thirdpara article p{
   text-align: justify;
 }
+/*end of styling*/

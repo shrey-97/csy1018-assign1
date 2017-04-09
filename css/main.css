@@ -1,6 +1,10 @@
+/*student name: Shreya Budhathoki
+student UN ID: 16442480 */
+/*opacity for the whole page*/
 html{
   opacity: 0.9;
   }
+  /*styling for the page with the font and background*/
 body{
   margin: 3%;font-size: 1em;font-family: cursive;
   background: url(../images/cover.jpg) no-repeat center fixed;
@@ -9,13 +13,16 @@ body{
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
+/*styling for the header section*/
 header{
   font-size: 2em;background-color: white;text-align: center;
 }
+/*styling for the footer section*/
 footer{
   display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
   background-color: white;
 }
+/*styling the info division*/
 .info{
     ul{
       list-style-type: none;margin: 0;padding: 0;color: white;
@@ -24,15 +31,17 @@ footer{
 section{
 
 }
-
+/*styling the main division*/
 .main{
   height: 750px;max-width: auto;
   background-size: contain;
 }
+/*styling the text division*/
 .text{
   position: absolute;bottom: 8px;left: : 16px
   font-size: 18px; color: white;text-align: center;;font-family: cursive;
 }
+/*styling the navigation division*/
 .navigation{
   width: 100%; padding-bottom: 1%; text-align: center;
 }
@@ -49,3 +58,4 @@ section{
 .navigation ul li a:link{
   color:#9a0d0d;
 }
+/*end of styling*/

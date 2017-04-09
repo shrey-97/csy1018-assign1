@@ -1,12 +1,17 @@
+/*student name: Shreya Budthathoki
+student UN ID: 16442480*/
+/*styling the body section*/
 body{
   margin: 3%;font-size: 1em;font-family: cursive;
 }
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
+/*styling the header section*/
 header{
   text-align: center;font-size: 2em;color: #9a0d0d;font-family: cursive;
 }
+/*styling the gallery section*/
 .gallery{
   border: 1px solid #ccc;
 }
@@ -19,6 +24,7 @@ header{
 .description{
   padding: 15px;text-align: center;
 }
+/*making the site responsive*/
 *{
   box-sizing: border-box;
 }
@@ -37,3 +43,4 @@ header{
 }.clearfix:after{
   content: "";display: table;clear: both;
 }
+/*end of styling for this webpage*/
