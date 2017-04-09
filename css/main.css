@@ -23,22 +23,16 @@ footer{
   background-color: white;
 }
 /*styling the info division*/
-.info{
-    ul{
-      list-style-type: none;margin: 0;padding: 0;color: white;
-    }
-}
 section{
-
 }
 /*styling the main division*/
 .main{
-  height: 450px;max-width: auto;
+  height: 450px;
   background-size: contain;
 }
 /*styling the text division*/
 .text h3{
-  position: absolute;bottom: 8px;left: 16px
+  position: absolute;bottom: 8px;left: 16px;
   font-size: 18px; color: white;text-align: center;;font-family: cursive;
 }
 /*styling the navigation division*/
