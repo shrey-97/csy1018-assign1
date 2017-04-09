@@ -1,14 +1,20 @@
+html{
+  opacity: 0.9;
+  }
 body{
-  margin: 3%;font-size: 15px;font-family: cursive;background: #080000;
+  margin: 3%;font-size: 1em;font-family: cursive;
+  background: url(../images/cover.jpg) no-repeat center fixed;
+  background-size: cover;
 }
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
 }
 header{
-  font-size: 30px;color: #9a0d0d;text-align: center;
+  font-size: 2em;background-color: white;text-align: center;
 }
 footer{
   display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
+  background-color: white;
 }
 .info{
     ul{
@@ -21,8 +27,6 @@ section{
 
 .main{
   height: 750px;max-width: auto;
-  background-image: url(../images/background.jpg);
-  display: block;margin: auto;background-repeat: no-repeat;
   background-size: contain;
 }
 .text{
@@ -30,14 +34,14 @@ section{
   font-size: 18px; color: white;text-align: center;;font-family: cursive;
 }
 .navigation{
-  width: 100%; padding-bottom: 3%; text-align: center;
+  width: 100%; padding-bottom: 1%; text-align: center;
 }
 .navigation ul{
   display: flex;flex-direction: row;justify-content: space-around;
   list-style-type: none; margin: 0; padding: 0; overflow: hidden;
 }
 .navigation ul li{
-  padding: 1% 4%;
+  padding: 1% 2%;
 }
 .navigation ul li a{
   display: block;padding: 8px; color: white;color:#9a0d0d;
