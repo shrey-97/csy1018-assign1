@@ -2,7 +2,8 @@
 student UN ID: 16442480*/
 /*styling the body section*/
 body{
-  margin: 3%;font-size: 1em;font-family: cursive;
+  margin: 3%;font-size: 2em;font-family: tangerine;
+  background: linear-gradient(to left, #e55d87, #5fc3e4);
 }
 h1,h2,h3,h4,h5,h6,p{
   margin: 0;
@@ -10,14 +11,18 @@ h1,h2,h3,h4,h5,h6,p{
 /*styling the header section*/
 header{
   text-align: center;font-size: 2em;color: #9a0d0d;font-family: cursive;
+  background-color: white; opacity: 0.7;
 }
 /*styling the gallery section*/
 .gallery{
   border: 1px solid #ccc;
+  display: flex;
+  flex-direction: row;
 }
 .gallery:hover{
   border: 1px solid #777;
 }
+
 .gallery img{
   width: 250px;height: 300px;
 }
@@ -27,6 +32,28 @@ header{
 /*making the site responsive*/
 *{
   box-sizing: border-box;
+}
+/*styling footer*/
+footer{
+  display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
+  background-color: black;opacity: 0.7;border-radius: 8px;
+}
+/*styling the navigation sction*/
+.navigation{
+  width: 100%; padding-bottom: 3%; text-align: center;
+}
+.navigation ul{
+  display: flex;flex-direction: row;justify-content: space-around;
+  list-style-type: none; margin: 0; padding: 0; overflow: hidden;
+}
+.navigation ul li{
+  padding: 1% 4%;
+}
+.navigation ul li a{
+  display: block;padding: 8px; color: white;color:#9a0d0d;font-weight: bold;
+}
+.navigation ul li a:link{
+  color:#9a0d0d;font-weight: bold;
 }
 .responsive{
   padding: 0 6px;float: left;width: 25%;

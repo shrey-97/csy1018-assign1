@@ -2,7 +2,7 @@
 student UN ID: 16442480 */
 /*styling the body section*/
 body{
-  margin: 3%;font-size: 1em;font-family: cursive;
+  margin: 3%;font-size: 2em;font-family: tangerine;
   background: url(../images/classbackground.jpg) no-repeat center fixed;
   background-size: cover; opacity: 0.8;
 }
@@ -12,9 +12,13 @@ h1,h2,h3,h4,h5,h6,p{
 /*styling the header section*/
 header{
   font-size: 3em;color: #9a0d0d;text-align: center;
+  background-color: white;opacity: 0.7;border-radius: 8px;
 }
 section{
 
+}
+header h2{
+  text-shadow: 2px 3px;
 }
 /*styling  the picture division*/
 .pictures{
@@ -49,6 +53,7 @@ section{
 /*styling the footer section*/
 footer{
   display: flex;flex-direction: row;padding: 1%;justify-content: space-between;
+  background-color: black;opacity: 0.7;border-radius: 8px;
 }
 /*styling the navigation sction*/
 .navigation{
@@ -67,17 +72,16 @@ footer{
 .navigation ul li a:link{
   color:#9a0d0d;font-weight: bold;
 }
-.input[type=text],select{
+input[type=text],select{
   padding: 12px 20px;margin: 8px 0;display: inline-block;
   border: 1px solid #ccc;border-radius: 4px;box-sizing: border-box;
 }
-.input[type=submit] {
-  width: 100%;background-color: #4CAF50;color: white;
-  padding: 14px 20px;margin: 8px 0;border: none;border-radius: 4px;
-  cursor: pointer;
+input[type=submit] {
+  background-color: #434343; color: white; padding: 12px 20px; border: none;
+  border-radius: 4px; cursor: pointer;
 }
-.input[type=submit]:hover{
-  background-color: #45a049;
+input[type=submit]:hover{
+  background-color: #243560;
 }
 .div{
   border-radius: 5px;background-color: #f2f2f2;padding: 20px;
